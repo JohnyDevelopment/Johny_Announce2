@@ -1,6 +1,6 @@
 ESX = nil
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
-local webhook = "https://discord.com/api/webhooks/946429831262928966/srUsci-Er9TY-d9frOt5iwIXiGwirLBlpv8Oa9gsis_UTb2FW9GRJ_t4qkg9f73SmDNr"
+local webhook = ""
 
 RegisterNetEvent("Imago_announce:send")
 AddEventHandler('Imago_announce:send', function(text)
