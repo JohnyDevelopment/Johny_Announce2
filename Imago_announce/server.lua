@@ -23,6 +23,6 @@ AddEventHandler('Imago_announce:send', function(text)
         }
         PerformHttpRequest(webhook, function(err, text, headers) end, 'POST', json.encode({ username = "Imago Announce",embeds = logpodwysylanie}), { ['Content-Type'] = 'application/json' })
     else
-        xPlayer.showNotification('~r~Nie posiadasz permisji')
+        TriggerClientEvent('esx:showNotification', source, "Nie Masz Permisji")
     end
 end)
